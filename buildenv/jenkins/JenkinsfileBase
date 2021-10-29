@@ -1,4 +1,4 @@
-+#!groovy
+#!groovy
 
 def makeTest(testParam) {
 	String tearDownCmd = "$RESOLVED_MAKE; \$MAKE -f ./aqa-tests/TKG/testEnv.mk testEnvTeardown"
